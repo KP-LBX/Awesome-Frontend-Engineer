@@ -3,7 +3,6 @@
 [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) is the language of the web. While tasks like page structure and
 styling are handled by HTML & CSS, page interactivity falls within the domain
 of Javascript.
-
 The [MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web) are a phenomenal resource for getting started!
 
 ## 1. [Language Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics#language_basics_crash_course)
@@ -16,14 +15,30 @@ The [MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/Getting_starte
 - Logical operators `&&`, `||`, `==`, ...
 - [Loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration) `while (...)`, `for (...)`
 - [Comments](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics#comments) `functionCall() //descriptive comment, which is not executed`
-
-## 2. More advanced concepts
-
 - [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#description) properties & methods `.length`, `.split(",")`, ...
 - [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#description) manipulation, concatenation `"hello" + " " + "world"`
 - [Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
 - [Array instantiation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#constructor) `Array.of(...)`, `Array(...)`, `Array.from(...)`, ...
 - Array [properties](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#instance_properties) & [methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#instance_methods) `.length`, `.includes()`, ...
+
+```javascript
+function askNicely(name) {
+  console.log("Hi, " + name + ". Could you please get me a coffee?");
+}
+
+var interns = ["Nadia", "Jared", "Pohla"];
+
+for (var index = 0; index < interns.length; index++) {
+  var name = interns[index];
+  askNicely(name);
+  if (name == "Jared") {
+    console.log("Oh, and could you leave room for cream, please?");
+  }
+}
+```
+
+## 2. More advanced concepts
+
 - [Falsy values](https://developer.mozilla.org/en-US/docs/Glossary/Falsy) `false`, `0`, `""`, ...
 - [Truthy values](https://developer.mozilla.org/en-US/docs/Glossary/Truthy) `true`, `{}`, `1`, ...
 - [Global vs. Block-scoping](https://developer.mozilla.org/en-US/docs/Glossary/Scope)
