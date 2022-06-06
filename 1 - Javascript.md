@@ -72,6 +72,23 @@ for (var index = 0; index < interns.length; index++) {
 - [Renaming imports/exports](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules#renaming_imports_and_exports) `import { namedImport as whatever } from "..."`
 - Modules vs. scripts
 
+`artist.utils.js`
+
+```javascript
+export const printName = (name) => console.log(name);
+export default ["Jerry Garcia", "Art Garfunkel", "Radiohead"];
+```
+
+`main.js`
+
+```javascript
+import artistNames, { printName as displayName } from "../artist.utils.js";
+
+for (let artist of artistNames) {
+  displayName(artist);
+}
+```
+
 ## 6. [Asynchronous JS](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous)
 
 - "Event loop"
