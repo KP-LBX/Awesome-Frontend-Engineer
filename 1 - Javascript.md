@@ -6,7 +6,7 @@ of Javascript.
 
 The [MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web) are a phenomenal resource for getting started!
 
-1. [Language Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics#language_basics_crash_course)
+## 1. [Language Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics#language_basics_crash_course)
 
 - Expressions/statements `console.log('this line is a statement');`
 - [Variable assignent](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics#variables) `var x = 4`
@@ -17,7 +17,6 @@ The [MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/Getting_starte
 - [Loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration) `while (...)`, `for (...)`
 - [Comments](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics#comments) `functionCall() //descriptive comment, which is not executed`
 
-2. More advanced concepts
 
 - [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#description) properties & methods `.length`, `.split(",")`, ...
 - [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#description) manipulation, concatenation `"hello" + " " + "world"`
@@ -29,7 +28,6 @@ The [MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/Getting_starte
 - [Global vs. Block-scoping](https://developer.mozilla.org/en-US/docs/Glossary/Scope)
 - [Ternary operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator) `some_value ? console.log('true') : console.log('false)`
 
-3. Even _more_ advanced concepts
 
 - [Iterators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators#iterators)
 - [Higher-order array functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#instance_methods) `[...].map()`, `[...].filter()`, `[...].reduce()`, ...
@@ -38,7 +36,6 @@ The [MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/Getting_starte
 - [`Date` object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) & its methods
 - [Strict vs. loose equality](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness) `===` vs. (`==`)
 
-4. ES6-specific Language Additions
 
 - [`let`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let) & [`const`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const) vs. [`var`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var)
 - [Template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) `` hello, `${"world"}`! ``
@@ -48,7 +45,6 @@ The [MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/Getting_starte
 - [`for _ of _` loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of)
 - [Spread operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
 
-5. [Modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
 
 - [Exporting from modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules#exporting_module_features)
   - Named exports `export const arrFn = () => ...`
@@ -57,7 +53,6 @@ The [MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/Getting_starte
 - [Renaming imports/exports](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules#renaming_imports_and_exports) `import { namedImport as whatever } from "..."`
 - Modules vs. scripts
 
-6. [Asynchronous JS](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous)
 
 - "Event loop"
 - "Blocking" and "Non-blocking"
@@ -96,7 +91,7 @@ hello
 - Callback functions `fnThatReturnsPromise().then(() => console.log('done'))`
 - `async` / `await` syntax
 
-7. Data-fetching
+## 7. Data-fetching
 
 - [AJAX (Asynchronous JS And XML)](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX)
 - [HTTP (HyperText Transfer Protocol)](https://developer.mozilla.org/en-US/docs/Web/HTTP)
@@ -104,7 +99,7 @@ hello
 - [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
 - [Axios](https://axios-http.com/docs/example)
 
-8. JS & the DOM
+## 8. JS & the DOM
 
 - [What is the DOM?](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction#dom_and_javascript)
 - [HTML basics](https://developer.mozilla.org/en-US/docs/Glossary/HTML#concept_and_syntax)
