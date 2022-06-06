@@ -94,7 +94,7 @@ hello
 
 - [Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) `fnThatReturnsPromise().then(...).catch(...)`
 - [Callback functions](https://developer.mozilla.org/en-US/docs/Glossary/Callback_function) `fnThatReturnsPromise(]).then(() => console.log('done'))`
-- [`async`] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function) / [`await`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await) syntax
+- [`async`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function) / [`await`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await) syntax
 
 ## 7. Data-fetching
 
