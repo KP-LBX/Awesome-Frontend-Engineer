@@ -8,42 +8,42 @@ The [MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/Getting_starte
 
 1. [Language Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics#language_basics_crash_course)
 
-- Expressions/statements (`console.log('this line is a statement');`)
-- [Variable assignent](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics#variables) (`var x = 4`)
-- [Data types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types) (`number`, `string`, `array`, ...)
+- Expressions/statements `console.log('this line is a statement');`
+- [Variable assignent](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics#variables) `var x = 4`
+- [Data types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types) `number`, `string`, `array`, ...
 - [Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
-- [Conditional statements](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#if...else_statements) (`if (...) {}`)
-- Logical operators (`&&`, `||`, `==`, ...)
-- [Loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration) (`while`, `for`)
-- [Comments](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics#comments) (`functionCall() //descriptive comment, which is not executed`)
+- [Conditional statements](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#if...else_statements) `if (...) {}`
+- Logical operators `&&`, `||`, `==`, ...
+- [Loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration) `while (...)`, `for (...)`
+- [Comments](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics#comments) `functionCall() //descriptive comment, which is not executed`
 
 2. More advanced concepts
 
-- [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#description) properties & methods (`.length`, `.split(",")`, ...)
-- [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#description) manipulation, concatenation (`"hello" + " " + "world"`)
+- [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#description) properties & methods `.length`, `.split(",")`, ...
+- [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#description) manipulation, concatenation `"hello" + " " + "world"`
 - [Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
-- [Array instantiation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#constructor) (`Array.of(...)`, `Array(...)`, `Array.from(...)`, ...)
-- Array [properties](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#instance_properties) & [methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#instance_methods) (`.length`, `.includes()`, ...)
-- [Falsy values](https://developer.mozilla.org/en-US/docs/Glossary/Falsy) (`false`, `0`, `""`, ...)
-- [Truthy values](https://developer.mozilla.org/en-US/docs/Glossary/Truthy) (`true`, `{}`, `1`, ...)
+- [Array instantiation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#constructor) `Array.of(...)`, `Array(...)`, `Array.from(...)`, ...
+- Array [properties](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#instance_properties) & [methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#instance_methods) `.length`, `.includes()`, ...
+- [Falsy values](https://developer.mozilla.org/en-US/docs/Glossary/Falsy) `false`, `0`, `""`, ...
+- [Truthy values](https://developer.mozilla.org/en-US/docs/Glossary/Truthy) `true`, `{}`, `1`, ...
 - [Global vs. Block-scoping](https://developer.mozilla.org/en-US/docs/Glossary/Scope)
-- [Ternary operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator) (`some_value ? console.log('true') : console.log('false)`)
+- [Ternary operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator) `some_value ? console.log('true') : console.log('false)`
 
 3. Even _more_ advanced concepts
 
 - [Iterators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators#iterators)
-- [Higher-order array functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#instance_methods) (`[...].map()`, `[...].filter()`, `[...].reduce()`, ...)
+- [Higher-order array functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#instance_methods) `[...].map()`, `[...].filter()`, `[...].reduce()`, ...
 - [Callback functions](https://developer.mozilla.org/en-US/docs/Glossary/Callback_function)
 - [`Math` object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math) & its methods
 - [`Date` object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) & its methods
-- [Strict vs. loose equality](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness) (`===` vs. (`==`))
+- [Strict vs. loose equality](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness) `===` vs. (`==`)
 
 4. ES6-specific Language Additions
 
 - [`let`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let) & [`const`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const) vs. [`var`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var)
-- [Template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) (`` hello, `${"world"}`! ``)
+- [Template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) `` hello, `${"world"}`! ``
 - [Arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
-- [Destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) (`const [one, two] = [1, 2]`)
+- [Destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) `const [one, two] = [1, 2]`
 - [`...rest` parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters#description)
 - [`for _ of _` loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of)
 - [Spread operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
