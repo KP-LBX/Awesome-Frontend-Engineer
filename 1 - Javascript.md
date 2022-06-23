@@ -22,15 +22,28 @@ The [MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/Getting_starte
 - Array [properties](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#instance_properties) & [methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#instance_methods) `.length`, `.includes()`, ...
 
 ```javascript
+// we can define functions to do work
+function greet() {
+  console.log("Welcome to your first day, interns!!";)
+}
+
+greet(); //and then invoke/call those functions
+
+// functions can take parameters
 function askNicely(name) {
   console.log("Hi, " + name + ". Could you please get me a coffee?");
 }
 
-var interns = ["Nadia", "Jared", "Pohla", "Jas"];
+var interns = ["Nadia", "Jared", "Pohla", "Jas"]; // arrays can store many values
 
+// we can iterate over arrays
 for (var index = 0; index < interns.length; index++) {
-  var name = interns[index];
+  
+  var name = interns[index]; //and access the values they contain
+  
   askNicely(name);
+
+  // we can execute code under certain conditions
   if (name == "Jared") {
     console.log("Oh, and could you leave room for cream, please?");
   }
