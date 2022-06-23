@@ -26,7 +26,7 @@ function askNicely(name) {
   console.log("Hi, " + name + ". Could you please get me a coffee?");
 }
 
-var interns = ["Nadia", "Jared", "Pohla"];
+var interns = ["Nadia", "Jared", "Pohla", "Jas"];
 
 for (var index = 0; index < interns.length; index++) {
   var name = interns[index];
