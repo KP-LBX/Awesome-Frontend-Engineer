@@ -21,6 +21,15 @@ The [MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/Getting_starte
 - [Array instantiation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#constructor) `Array.of(...)`, `Array(...)`, `Array.from(...)`, ...
 - Array [properties](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#instance_properties) & [methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#instance_methods) `.length`, `.includes()`, ...
 
+#### Expressions & Statements
+Javascript programs are comprised of statements and expressions.
+```javascript
+var x; //declaring a variable
+x = 4; //assigning a value
+
+var y = x; //shorthand declaration & assigment
+```
+
 ```javascript
 // we can define functions to do work
 function greet() {
@@ -54,8 +63,57 @@ for (var index = 0; index < interns.length; index++) {
 
 - [Falsy values](https://developer.mozilla.org/en-US/docs/Glossary/Falsy) `false`, `0`, `""`, ...
 - [Truthy values](https://developer.mozilla.org/en-US/docs/Glossary/Truthy) `true`, `{}`, `1`, ...
-- [Global vs. Block-scoping](https://developer.mozilla.org/en-US/docs/Glossary/Scope)
 - [Ternary operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator) `some_value ? console.log('true') : console.log('false)`
+
+#### [Global scope](https://developer.mozilla.org/en-US/docs/Glossary/Scope)
+```javascript
+/* 
+  values declared at the top-level of a program are in the 'global scope'. 
+  this means that they can be accessed at any other level of scope - within functions, etc.
+*/
+var globalVar = 'foo';
+
+function globalScope() {
+  console.log(globalVar); // -> foo
+}
+```
+
+#### [Block scope](https://developer.mozilla.org/en-US/docs/Glossary/Scope)
+```javascript
+/* 
+  functions, conditions, and other parts of programs create their *own* scope.
+  a good rule of thumb: anything within curly brackets ({}) is in a new scope.
+  declarations and assigments made within those scopes cannot be accessed outside of that scope.
+*/
+
+var globalVar = 'foo';
+
+function blockScope() {
+  var blockVar = 'bar'; 
+  console.log(globalVar); // -> foo
+  console.log(blockVar); // -> bar
+
+  /*
+  * @exercise: can we access these variables in this scope?
+  */
+  function newBlockScope() {
+    console.log(globalVar);
+    console.log(blockVar);
+  }
+}
+
+console.log(globalVar); // -> foo
+console.log(blockVar); // -> blockVar is not defined
+```
+
+#### [Truthy && Falsy Values]
+```javascript
+/*
+  we've learned about conditionals.
+*/
+```
+
+
 
 ## 3. Even _more_ advanced concepts
 
