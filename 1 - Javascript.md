@@ -33,7 +33,7 @@ var y = x; //shorthand declaration & assigment
 ```javascript
 // we can define functions to do work
 function greet() {
-  console.log("Welcome to your first day, interns!!";)
+  console.log("Welcome to your first day, interns!!");
 }
 
 greet(); //and then invoke/call those functions
