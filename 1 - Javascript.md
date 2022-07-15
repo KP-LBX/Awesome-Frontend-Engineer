@@ -62,9 +62,14 @@ for (var index = 0; index < interns.length; index++) {
 
 ## 2. More advanced concepts
 
+- [Global scope](https://developer.mozilla.org/en-US/docs/Glossary/Scope)
+- [Block scope](https://developer.mozilla.org/en-US/docs/Glossary/Scope)
+- [Type Coercion](https://developer.mozilla.org/en-US/docs/Glossary/Type_coercion)
 - [Falsy values](https://developer.mozilla.org/en-US/docs/Glossary/Falsy) `false`, `0`, `""`, ...
 - [Truthy values](https://developer.mozilla.org/en-US/docs/Glossary/Truthy) `true`, `{}`, `1`, ...
 - [Ternary operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator) `some_value ? console.log('true') : console.log('false)`
+
+####
 
 #### [Global scope](https://developer.mozilla.org/en-US/docs/Glossary/Scope)
 
@@ -109,14 +114,17 @@ console.log(globalVar); // -> foo
 console.log(blockVar); // -> blockVar is not defined
 ```
 
+#### [Type Coercion]
+
+Javascript 'coerces' non-boolean values into booleans as needed.
+
 #### [Truthy && Falsy Values]
+
 ```javascript
 /*
-  we've learned about conditionals.
+
 */
 ```
-
-
 
 ## 3. Even _more_ advanced concepts
 
